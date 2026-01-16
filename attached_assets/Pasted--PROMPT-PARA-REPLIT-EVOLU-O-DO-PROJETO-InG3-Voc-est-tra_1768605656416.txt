@@ -1,0 +1,169 @@
+🧠 PROMPT PARA REPLIT — EVOLUÇÃO DO PROJETO InG3
+
+Você está trabalhando em um projeto web profissional da InG3, uma empresa que cria presenças digitais personalizadas, com foco em design premium, futuro humano, tecnologia integrada à natureza e experiência emocional.
+
+🎯 OBJETIVO GERAL
+
+Aprimorar a base atual do site
+
+Criar novas páginas mantendo 100% do mesmo design system
+
+Garantir consistência visual, tipográfica e de animações
+
+Adicionar movimento de fundo sincronizado com o scroll
+
+Criar e organizar um repositório interno de imagens
+
+Manter o projeto escalável e profissional
+
+🎨 DESIGN SYSTEM (REGRA ABSOLUTA)
+
+NÃO criar novos estilos soltos
+
+Reutilizar:
+
+Cores
+
+Tipografia
+
+Curvas
+
+Componentes
+
+Todo layout deve parecer parte do mesmo universo visual
+
+Paleta:
+
+Branco quente (off-white)
+
+Tons de verde orgânico e tecnológico
+
+Gradientes suaves verde → branco
+
+Tipografia:
+
+Fontes características, com personalidade
+
+Nada genérico
+
+Headline e body bem definidos
+
+Espaçamento generoso
+
+🧬 ESTRUTURA DE PÁGINAS (CRIAR)
+
+Criar as seguintes páginas reutilizando o mesmo design:
+
+Home
+
+Sobre
+
+Serviços
+
+Projetos / Portfólio
+
+Conteúdo / Insights
+
+Contato
+
+📌 Todas devem:
+
+Compartilhar header e footer
+
+Usar curvas orgânicas para separação de seções
+
+Manter ritmo visual e animações consistentes
+
+🖼️ IMAGENS & REPOSITÓRIO
+
+Criar uma pasta organizada de imagens:
+
+/assets/images/
+  /backgrounds
+  /nature
+  /technology
+  /ui
+  /projects
+
+
+Utilizar imagens que transmitam:
+
+Natureza
+
+Futuro
+
+Tecnologia humana
+
+Criar imagens visuais coerentes com o design (gradientes, blur, overlays verdes)
+
+As imagens devem funcionar como parte da identidade, não apenas decoração
+
+✨ ANIMAÇÕES & MOVIMENTO
+
+Implementar animações suaves e orgânicas, incluindo:
+
+Scroll & Parallax
+
+Quando a página rolar:
+
+O conteúdo se move
+
+O fundo também se move, mais lentamente (parallax)
+
+Movimento sutil, elegante, quase imperceptível
+
+Elementos animados:
+
+Fade-in suave
+
+Slide leve
+
+Crescimento orgânico
+
+Hover com microinterações
+
+📌 Nada brusco, nada rápido demais.
+
+🌿 BACKGROUNDS VIVOS
+
+Backgrounds com:
+
+Gradientes animados
+
+Shapes orgânicos em movimento lento
+
+Imagens com blur + overlay verde
+
+O fundo deve dar sensação de:
+
+“o site está vivo”
+
+🧩 ARQUITETURA DO CÓDIGO
+
+Componentização clara
+
+Estilos centralizados (CSS / Tailwind / Styled)
+
+Fácil de escalar
+
+Nenhum hardcode visual isolado
+
+Preparar o projeto para:
+
+Novas páginas
+
+Novos clientes
+
+Evolução futura
+
+🔒 REGRAS FINAIS
+
+Não quebrar identidade visual
+
+Não criar páginas inconsistentes
+
+Não usar elementos genéricos
+
+Priorizar fluidez, clareza e impacto emocional
+
+Pense no site como um ecossistema digital vivo, não como páginas soltas.

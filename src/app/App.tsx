@@ -1,19 +1,17 @@
-import { HeroSection } from '@/app/components/HeroSection';
-import { PurposeSection } from '@/app/components/PurposeSection';
-import { SolutionsSection } from '@/app/components/SolutionsSection';
-import { VisualSection } from '@/app/components/VisualSection';
-import { TrustSection } from '@/app/components/TrustSection';
-import { CTASection } from '@/app/components/CTASection';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home, Sobre, Servicos, Projetos, Conteudo, Contato } from '@/app/pages';
 
 export default function App() {
   return (
-    <div className="size-full overflow-x-hidden">
-      <HeroSection />
-      <PurposeSection />
-      <SolutionsSection />
-      <VisualSection />
-      <TrustSection />
-      <CTASection />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/servicos" element={<Servicos />} />
+        <Route path="/projetos" element={<Projetos />} />
+        <Route path="/conteudo" element={<Conteudo />} />
+        <Route path="/contato" element={<Contato />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { OrganicCurve } from '@/app/components/OrganicCurve';
 
 export function HeroSection() {
@@ -55,18 +56,20 @@ export function HeroSection() {
             A internet é o maior palco do mundo. A InG3 existe para garantir que você entre nele com identidade, clareza e impacto.
           </motion.p>
 
-          <motion.button
-            className="group inline-flex items-center gap-3 bg-gradient-to-br from-[#6B8E6B] to-[#7A9A7A] hover:from-[#5A7A5A] hover:to-[#6B8E6B] text-white px-10 py-5 rounded-full transition-all duration-500 shadow-lg hover:shadow-2xl hover:scale-105 backdrop-blur-sm"
-            style={{ fontFamily: 'var(--font-body)', fontWeight: 500 }}
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            <span className="text-lg">Começar minha jornada</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-          </motion.button>
+          <Link to="/contato">
+            <motion.div
+              className="group inline-flex items-center gap-3 bg-gradient-to-br from-[#6B8E6B] to-[#7A9A7A] hover:from-[#5A7A5A] hover:to-[#6B8E6B] text-white px-10 py-5 rounded-full transition-all duration-500 shadow-lg hover:shadow-2xl hover:scale-105 backdrop-blur-sm cursor-pointer"
+              style={{ fontFamily: 'var(--font-body)', fontWeight: 500 }}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.8, ease: [0.22, 1, 0.36, 1] }}
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              <span className="text-lg">Começar minha jornada</span>
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            </motion.div>
+          </Link>
         </motion.div>
       </div>
 
