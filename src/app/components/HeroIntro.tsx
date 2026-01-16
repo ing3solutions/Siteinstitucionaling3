@@ -6,8 +6,7 @@ export function HeroIntro() {
   const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
-    offset: ["start start", "end start"],
-    layoutEffect: false
+    offset: ["start start", "end start"]
   });
 
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
