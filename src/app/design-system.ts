@@ -46,11 +46,13 @@ export const typography = {
 
 export const animation = {
   easing: [0.22, 1, 0.36, 1],
+  easingBounce: [0.34, 1.56, 0.64, 1],
   duration: {
     fast: 0.3,
     normal: 0.5,
     slow: 0.8,
     slower: 1.2,
+    dramatic: 1.8,
   },
 };
 
@@ -63,5 +65,39 @@ export const spacing = {
   card: {
     padding: 'p-8 md:p-10',
     borderRadius: 'rounded-[32px]',
+  },
+};
+
+export const glassmorphism = {
+  light: {
+    background: 'rgba(248, 250, 247, 0.7)',
+    backdropBlur: 'blur(20px)',
+    border: '1px solid rgba(255, 255, 255, 0.3)',
+    shadow: '0 8px 32px rgba(45, 74, 45, 0.1)',
+  },
+  medium: {
+    background: 'rgba(248, 250, 247, 0.85)',
+    backdropBlur: 'blur(24px)',
+    border: '1px solid rgba(255, 255, 255, 0.4)',
+    shadow: '0 12px 40px rgba(45, 74, 45, 0.15)',
+  },
+  dark: {
+    background: 'rgba(45, 74, 45, 0.6)',
+    backdropBlur: 'blur(20px)',
+    border: '1px solid rgba(255, 255, 255, 0.15)',
+    shadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
+  },
+  card: {
+    background: 'rgba(255, 255, 255, 0.5)',
+    backdropBlur: 'blur(16px)',
+    border: '1px solid rgba(255, 255, 255, 0.5)',
+    shadow: '0 4px 24px rgba(45, 74, 45, 0.08)',
+    hoverShadow: '0 8px 32px rgba(45, 74, 45, 0.12)',
+  },
+  icon: {
+    background: 'rgba(255, 255, 255, 0.4)',
+    hoverBackground: 'rgba(255, 255, 255, 0.6)',
+    backdropBlur: 'blur(12px)',
+    border: '1px solid rgba(255, 255, 255, 0.4)',
   },
 };
